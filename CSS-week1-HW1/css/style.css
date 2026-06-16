@@ -1,46 +1,62 @@
+ /* my css file for homework 1 project */
 
-
-/* body tag (change font family and font size) */
+/* body tag (Clean font & soft background) */
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 16 px;
+    background-color: #f4f6f9;
+    color: #333333;
+    margin: 0;
 }
 
-/* header tag (change background color property) */
+/* header tag (Elegant dark blue with a fixed height) */
 header {
-    background-color: #2c3e50;
+    background-color: #1a365d;
+    color: #ffffff;
+    height: 80 px;
+    line-height: 80 px; /* Vertically centers the text */
 }
 
-/* nav tag (change background color property) */
+/* nav tag (Subtle menu bar background and height) */
 nav {
-    background-color: #34495e;
+    background-color: #2a4365;
+    height: 45 px;
+    line-height: 45 px; /* Vertically centers the navigation links */
 }
 
-/* main tag (change background color and font size properties) */
+/* main tag (Soft white content area with safe side-margins) */
 main {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     font-size: 18 px;
+    /* Margin keeps the text away from the screen borders */
+    margin: 30 px 40 px; 
 }
 
-/* footer tag (change background color property) */
+/* footer tag (Subtle dark blue matching the header) */
 footer {
-    background-color: #7f8c8d;
+    background-color: #1a365d;
+    color: #cbd5e0;
+    height: 50 px;
+    line-height: 50 px; /* Vertically centers the footer text */
+    text-align: center;
 }
 
-/* li tag (change display and width properties) */
+/* li tag (for horizontal navigation links) */
 li {
     display: inline-block;
-    width: 150 px;
+    width: 160 px;
+    text-align: center;
 }
 
-/* h1 tag (change text alignment, font family, and color) */
+/* h1 tag (for a beautiful modern title) */
 h1 {
     text-align: center;
-    font-family: serif;
-    color: #e74c3c;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* White text that looks great on the dark blue header */
+    margin: 0;
 }
 
-/* p tag (change line height property) */
+/* p tag (Comfortable reading line-height) */
 p {
-    line-height: 1.8;
+    line-height: 1.7 px;
 }
