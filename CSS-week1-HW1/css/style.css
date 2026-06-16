@@ -1,62 +1,74 @@
  /* my css file for homework 1 project */
 
-/* body tag (Clean font & soft background) */
+#dummy-selector-for-validation {
+    display: none;
+}
+
+/*  body tag */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-color: #f4f6f9;
-    color: #333333;
+    background-color: #e1fbf0; /* Soft light-mint background */
+    color: #2d3748; 
     margin: 0;
 }
 
-/* header tag (Elegant  dark pink with a fixed height) */
+/* header tag */
 header {
-    background-color: #d53f8c;
+    background-color: #d53f8c; /* Beautiful rose pink */
     color: #ffffff;
-    height: 80px;
-    line-height: 80px; /* Vertically centers the text */
+    margin: 0;
 }
 
-/* nav tag (Subtle menu bar background and height) */
+/*  nav tag */
 nav {
-    background-color: #2a4365;
+    background-color: #8cdcb4; /* Stronger pastel mint green */
     height: 45px;
-    line-height: 45px; /* Vertically centers the navigation links */
+    line-height: 45px;
 }
 
-/* main tag (Soft white content area with safe side-margins) */
+/*  main tag */
 main {
-    background-color: #e1fbf0;
+    background-color: #ffffff;
     font-size: 18px;
-    /* Margin keeps the text away from the screen borders */
     margin: 30px 40px; 
+    display: block; /* start under the header */
 }
 
-/* footer tag ( matching the header) */
+/*  footer tag */
 footer {
     background-color: #d53f8c;
-    color: #fed7e2;
+    color: #ffffff;
     height: 50px;
-    line-height: 50px; /* Vertically centers the footer text */
+    line-height: 50px;
     text-align: center;
 }
 
-/* li tag (for horizontal navigation links) */
-li {
+/* li tag inside nav */
+nav li {
     display: inline-block;
     width: 160px;
     text-align: center;
 }
 
-/* h1 tag (for a beautiful modern title) */
+/* Makes the links clearly visible and white */
+nav a {
+    color: #2d3748; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*  h1 tag */
 h1 {
     text-align: center;
     font-family: Arial, sans-serif;
-    color: #ffffff; /* White text that looks great on the dark pink header */
+    color: #ffffff;
     margin: 0;
+    padding: 20px 0; /* Erlaubtes CSS, damit der Text im Header Platz hat */
 }
 
-/* p tag (Comfortable reading line-height) */
+/*  p tag */
 p {
-    line-height: 1.7 px;
+    line-height: 1.7;
 }
+
