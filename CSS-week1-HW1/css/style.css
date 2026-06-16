@@ -47,7 +47,8 @@ footer {
 /* li tag inside nav */
 nav li {
     display: inline-block;
-    width: 160px;
+    width: auto;
+    margin:0 25px
     text-align: center;
 }
 
