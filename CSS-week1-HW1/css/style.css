@@ -47,12 +47,11 @@ footer {
 /* li tag inside nav */
 nav li {
     display: inline-block;
-    width: auto;
-    margin:0 25px
+    width: 210px;
     text-align: center;
 }
 
-/* Makes the links clearly visible and white */
+/* Makes the links clearly visible */
 nav a {
     color: #2d3748; 
     text-decoration: none;
@@ -65,7 +64,7 @@ h1 {
     font-family: Arial, sans-serif;
     color: #ffffff;
     margin: 0;
-    padding: 20px 0; /* Erlaubtes CSS, damit der Text im Header Platz hat */
+    padding: 20px 0; /* so there is enough space in header for text */
 }
 
 /*  p tag */
