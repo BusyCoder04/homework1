@@ -20,31 +20,31 @@ header {
 /* nav tag (Subtle menu bar background and height) */
 nav {
     background-color: #2a4365;
-    height: 45 px;
-    line-height: 45 px; /* Vertically centers the navigation links */
+    height: 45px;
+    line-height: 45px; /* Vertically centers the navigation links */
 }
 
 /* main tag (Soft white content area with safe side-margins) */
 main {
     background-color: #e1fbf0;
-    font-size: 18 px;
+    font-size: 18px;
     /* Margin keeps the text away from the screen borders */
-    margin: 30 px 40 px; 
+    margin: 30px 40px; 
 }
 
 /* footer tag ( matching the header) */
 footer {
     background-color: #d53f8c;
     color: #fed7e2;
-    height: 50 px;
-    line-height: 50 px; /* Vertically centers the footer text */
+    height: 50px;
+    line-height: 50px; /* Vertically centers the footer text */
     text-align: center;
 }
 
 /* li tag (for horizontal navigation links) */
 li {
     display: inline-block;
-    width: 160 px;
+    width: 160px;
     text-align: center;
 }
 
