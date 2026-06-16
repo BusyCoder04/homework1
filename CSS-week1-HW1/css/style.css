@@ -9,9 +9,9 @@ body {
     margin: 0;
 }
 
-/* header tag (Elegant dark blue with a fixed height) */
+/* header tag (Elegant  dark pink with a fixed height) */
 header {
-    background-color: #1a365d;
+    background-color: #d53f8c;
     color: #ffffff;
     height: 80 px;
     line-height: 80 px; /* Vertically centers the text */
