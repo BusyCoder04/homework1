@@ -3,7 +3,7 @@
 /* body tag (Clean font & soft background) */
 body {
     font-family: Arial, sans-serif;
-    font-size: 16 px;
+    font-size: 16px;
     background-color: #f4f6f9;
     color: #333333;
     margin: 0;
@@ -13,8 +13,8 @@ body {
 header {
     background-color: #d53f8c;
     color: #ffffff;
-    height: 80 px;
-    line-height: 80 px; /* Vertically centers the text */
+    height: 80px;
+    line-height: 80px; /* Vertically centers the text */
 }
 
 /* nav tag (Subtle menu bar background and height) */
