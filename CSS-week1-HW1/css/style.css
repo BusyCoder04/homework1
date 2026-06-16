@@ -1,4 +1,46 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+
+
+/* body tag (change font family and font size) */
+body {
+    font-family: sans-serif;
+    font-size: 16 px;
+}
+
+/* header tag (change background color property) */
+header {
+    background-color: #2c3e50;
+}
+
+/* nav tag (change background color property) */
+nav {
+    background-color: #34495e;
+}
+
+/* main tag (change background color and font size properties) */
+main {
+    background-color: #f8f9fa;
+    font-size: 18 px;
+}
+
+/* footer tag (change background color property) */
+footer {
+    background-color: #7f8c8d;
+}
+
+/* li tag (change display and width properties) */
+li {
+    display: inline-block;
+    width: 150 px;
+}
+
+/* h1 tag (change text alignment, font family, and color) */
+h1 {
+    text-align: center;
+    font-family: serif;
+    color: #e74c3c;
+}
+
+/* p tag (change line height property) */
+p {
+    line-height: 1.8;
 }
