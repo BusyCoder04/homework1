@@ -49,10 +49,7 @@ footer {
 
 /* Step 8: li tag inside nav */
 nav li {
-    /* Step 3 from assignment: Commented out the existing styling for the li element */
-    /* display: inline-block; */
-    /* width: 160px; */
-    /* text-align: center; */
+    /* old code deleted */
 }
 
 /* Makes the links clearly visible and white */
