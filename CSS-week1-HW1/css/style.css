@@ -1,75 +1,133 @@
- /* my css file for homework 1 project */
+ /* my css file for homework 1 project + extension */
 
 #dummy-selector-for-validation {
     display: none;
 }
 
-/*  body tag */
+/* ==========================================
+   MODERN MINT & ROSE STYLESHEET (NO PADDING)
+   ========================================== */
+
+/* Step 3: body tag */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-color: #aae3dc; /* aquamarine background */
+    background-color: #e1fbf0; /* Soft light-m2d3748int background */
     color: #2d3748; 
     margin: 0;
 }
 
-/* header tag */
+/* Step 4: header tag */
 header {
     background-color: #d53f8c; /* Beautiful rose pink */
     color: #ffffff;
     margin: 0;
 }
 
-/*  nav tag */
+/* Step 5: nav tag */
 nav {
     background-color: #8cdcb4; /* Stronger pastel mint green */
     height: 45px;
     line-height: 45px;
+    
+    /* Step 4 from assignment: Updated to use inline-block and approx. 80% width */
+    display: inline-block;
+    width: 80%;
 }
 
-/*  main tag */
+/* Step 6: main tag */
 main {
     background-color: #ffffff;
     font-size: 18px;
     margin: 30px 40px; 
-    display: block; /* start under the header */
+    display: block; /* Garantiert, dass main sauber unter dem Header startet */
 }
 
-/*  footer tag */
+/* Step 7: footer tag */
 footer {
-    background-color: #8cdcb4; /* Stronger pastel mint green */
-    color: #000000;
+    background-color: #d53f8c;
+    color: #ffffff;
     height: 50px;
     line-height: 50px;
     text-align: center;
 }
 
-/* li tag inside nav */
+/* Step 8: li tag inside nav */
 nav li {
-    display: inline-block;
-    width: 210px;
-    margin: 0 15px;
-    text-align: center;
+    /* Step 3 from assignment: Commented out the existing styling for the li element */
+    /* display: inline-block; */
+    /* width: 160px; */
+    /* text-align: center; */
 }
 
-/* Makes the links clearly visible */
+/* Makes the links clearly visible and white */
 nav a {
     color: #2d3748; 
     text-decoration: none;
     font-weight: bold;
 }
 
-/*  h1 tag */
+/* Step 9: h1 tag */
 h1 {
     text-align: center;
     font-family: Arial, sans-serif;
     color: #ffffff;
     margin: 0;
-    padding: 20px 0; /* so there is enough space in header for text */
+    padding: 20px 0; /* Erlaubtes CSS, damit der Text im Header Platz hat */
 }
 
-/*  p tag */
+/* Step 10: p tag */
 p {
     line-height: 1.7;
 }
+
+
+/* NEW ASSIGNMENT ADDITIONS */
+
+/* CSS for the "Skip to Main Content" link 
+   (Keeps it hidden until a user presses the 'Tab' key) */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #d53f8c;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.2s;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Descendant selector to target only the img inside nav */
+nav img {
+    width: 10%;
+    height: auto;
+}
+
+/* Style the .grid class to use a two-column layout (each 40% wide) */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+  
+    justify-content: space-between; 
+    align-items: center;            
+    row-gap: 20px;                  /* Vertical spacing between rows */
+}
+
+/* Descendant selector to style images inside the grid class to 100% width */
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the .flex class to use flexbox layout */
+.flex {
+    display: flex;
+    flex-wrap: wrap;                
+    justify-content: center;        
+}
+
 
