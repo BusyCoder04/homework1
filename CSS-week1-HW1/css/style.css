@@ -4,10 +4,6 @@
     display: none;
 }
 
-/* ==========================================
-   MODERN MINT & ROSE STYLESHEET (NO PADDING)
-   ========================================== */
-
 /* Step 3: body tag */
 body {
     font-family: Arial, sans-serif;
@@ -84,17 +80,14 @@ p {
 
 /* NEW ASSIGNMENT ADDITIONS */
 
-/* CSS for the "Skip to Main Content" link 
-   (Keeps it hidden until a user presses the 'Tab' key) */
 .skip-link {
-    position: absolute;
-    top: -40px;
-    left: 0;
+    display: inline-block;
+    margin: 10px;
     background: #d53f8c;
     color: white;
-    padding: 8px;
-    z-index: 100;
-    transition: top 0.2s;
+    padding: 8px; 12px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .skip-link:focus {
