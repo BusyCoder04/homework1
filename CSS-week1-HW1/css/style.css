@@ -54,7 +54,7 @@ nav li {
 
 /* Makes the links clearly visible and white */
 nav a {
-    color: #ffffff; 
+    color: #ffffff !important;
     text-decoration: none;
     font-weight: bold;
 }
