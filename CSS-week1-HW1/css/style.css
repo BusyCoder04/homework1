@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-color: #e1fbf0; /* Soft light-m2d3748int background */
+    background-color: #e1fbf0; 
     color: #2d3748; 
     margin: 0;
 }
@@ -36,8 +36,7 @@ main {
     background-color: #ffffff;
     font-size: 18px;
     margin: 30px 40px; 
-    display: block; /* Garantiert, dass main sauber unter dem Header startet */
-}
+    display: block;  
 
 /* Step 7: footer tag */
 footer {
@@ -58,7 +57,7 @@ nav li {
 
 /* Makes the links clearly visible and white */
 nav a {
-    color: #2d3748; 
+    color: #ffffff; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -69,7 +68,7 @@ h1 {
     font-family: Arial, sans-serif;
     color: #ffffff;
     margin: 0;
-    padding: 20px 0; /* Erlaubtes CSS, damit der Text im Header Platz hat */
+    padding: 20px 0; /* 
 }
 
 /* Step 10: p tag */
